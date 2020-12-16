@@ -53,4 +53,6 @@ module.exports = {
       },
     },
   ].filter(Boolean),
+
+  pathPrefix: "/portfolio-site-1",
 }
