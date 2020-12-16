@@ -97,7 +97,7 @@ const icons = {
   }
 }
 
-type IconType = "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross" | "codingSlash" | "codingInterface"
+type IconType = "circle" | "arrowUp" | "upDown" | "hexa" | "cross" | "codingSlash" | "codingInterface"
 
 type SVGProps = {
   stroke?: boolean
