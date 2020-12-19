@@ -6,18 +6,18 @@ import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
-import ProjectsMDX from "../sections/projects"
+import WorkMDX from "../sections/work"
 
-const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
+const Works = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
       bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
-      sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
-      speed={0}
-      offset={offset + 0.1}
+      clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
+      speed={0.2}
+      offset={offset}
       factor={factor}
     />
-    <Content speed={0.4} offset={offset + 0.2} factor={factor}>
+    <Content speed={0.2} offset={offset} factor={factor}>
       <Inner>
         <div
           sx={{
@@ -27,7 +27,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
             h2: { gridColumn: `-1/1`, color: `white !important` },
           }}
         >
-          <ProjectsMDX />
+          <WorkMDX />
         </div>
       </Inner>
     </Content>
@@ -56,4 +56,4 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
   </div>
 )
 
-export default Projects
+export default Works
