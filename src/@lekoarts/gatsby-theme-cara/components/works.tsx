@@ -11,7 +11,8 @@ import WorkMDX from "../sections/work"
 const Works = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
-      bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
+      bg=" linear-gradient(to right, #ff9966, #ff5e62)"
+      
       clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
       speed={0.2}
       offset={offset}
@@ -44,14 +45,14 @@ const Works = ({ offset, factor = 2 }: { offset: number; factor?: number }) => (
         <SVG icon="circle" width={16} color="icon_yellow" left="70%" top="90%" />
         <SVG icon="codingSlash" hiddenMobile width={16}  color="icon_teal" left="18%" top="75%" />
         <SVG icon="circle" width={6} color="icon_brightest" left="75%" top="10%" />
-        <SVG icon="upDown" hiddenMobile width={8} color="icon_green" left="45%" top="10%" />
+        <SVG icon="upDown" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="circle" hiddenMobile width={6} color="icon_brightest" left="4%" top="20%" />
       <SVG icon="circle" width={12} color="icon_pink" left="80%" top="60%" />
       <SVG icon="codingInterface" width={6} color="icon_orange" left="10%" top="10%" />
       <SVG icon="codingInterface" width={12} color="icon_yellow" left="29%" top="26%" />
-      <SVG icon="hexa" width={16} stroke color="icon_red" left="75%" top="30%" />
-      <SVG icon="hexa" width={8} stroke color="icon_yellow" left="80%" top="70%" />
+      <SVG icon="hexa" width={16}  color="icon_blue" left="75%" top="30%" />
+      <SVG icon="hexa" width={8}  color="icon_yellow" left="80%" top="70%" />
     </Divider>
   </div>
 )

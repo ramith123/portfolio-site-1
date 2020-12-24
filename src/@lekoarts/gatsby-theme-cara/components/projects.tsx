@@ -50,8 +50,8 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       <SVG icon="circle" width={12} color="icon_pink" left="80%" top="60%" />
       <SVG icon="codingInterface" width={6} color="icon_orange" left="10%" top="10%" />
       <SVG icon="codingInterface" width={12} color="icon_yellow" left="29%" top="26%" />
-      <SVG icon="hexa" width={16} stroke color="icon_red" left="75%" top="30%" />
-      <SVG icon="hexa" width={8} stroke color="icon_yellow" left="80%" top="70%" />
+      <SVG icon="hexa" width={16}  color="icon_red" left="75%" top="30%" />
+      <SVG icon="hexa" width={8}  color="icon_yellow" left="80%" top="70%" />
     </Divider>
   </div>
 )
