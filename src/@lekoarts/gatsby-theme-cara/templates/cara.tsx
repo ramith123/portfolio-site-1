@@ -9,12 +9,12 @@ import Works from "../components/works"
 
 const Cara = () => (
   <Layout>
-    <Parallax pages={5.4}>
+    <Parallax pages={7}>
       <Hero offset={0} factor={1} />
       <Works offset = {1} factor={2} />
-      <Projects offset={2.1} factor={2} />
-      <About offset={3.9} factor={1} />
-      <Contact offset={4.5} factor={1} />
+      <Projects offset={2.8} factor={2} />
+      <About offset={5} factor={1} />
+      <Contact offset={6} factor={1} />
     </Parallax>
   </Layout>
 )
